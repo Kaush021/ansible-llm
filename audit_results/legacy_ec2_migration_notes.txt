@@ -1,0 +1,17 @@
+File: data/raw/ansible-examples/jboss-standalone/demo-aws-launch.yml
+
+Finding:
+- The playbook uses the legacy ec2 module to launch AWS instances.
+- The current environment does not provide the legacy ec2 module.
+- The modern candidate is amazon.aws.ec2_instance.
+- The original task uses access_key, secret_key, keypair, group, type,
+  image, region, instance_tags, count, and wait.
+- The task registers its output as ec2.
+- The following SSH-wait task iterates over ec2.instances and uses
+  item.public_dns_name.
+
+Migration precautions:
+- Verify legacy-to-modern parameter mappings against module documentation.
+- Verify the registered result structure before changing the SSH-wait task.
+- Preserve the original source file.
+- Do not execute the playbook or launch AWS instances during this audit.

@@ -1,0 +1,14 @@
+File: data/raw/ansible-examples/lamp_haproxy/aws/rolling_update.yml
+
+Finding:
+- The legacy nagios module is not available in the current Ansible environment.
+- One task disables Nagios alerts before the web-server update.
+- Another task re-enables Nagios alerts after the update.
+- Both target the webserver service for inventory_hostname.
+- Both delegate execution to hosts in groups.tag_ansible_group_monitoring.
+
+Migration precautions:
+- Identify the original Nagios module implementation and its API or command behavior.
+- Select a replacement that preserves the disable-before-update and enable-after-update sequence.
+- Preserve the original source file.
+- Do not execute monitoring or infrastructure changes during this audit.

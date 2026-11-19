@@ -1,0 +1,37 @@
+> MODULE [1mansible.posix.seboolean[0m (/home/kiki_021/.ansible/collections/ansible_collections/ansible/posix/plugins/modules/seboolean.py)
+
+  Toggles SELinux booleans.
+
+[1mOPTIONS[0m (red indicates it is required):
+
+   ignore_selinux_state  Useful for scenarios (chrooted environment)
+                         that you can't get the real SELinux state.
+        default: false
+        type: bool
+
+   [1mname[0m    Name of the boolean to configure.
+        type: str
+
+   persistent  Set to `true' if the boolean setting should survive a
+               reboot.
+        default: false
+        type: bool
+
+   [1mstate[0m   Desired boolean value.
+        type: bool
+
+[1mNOTES:[0m
+      * Not tested on any Debian based system.
+
+[1mREQUIREMENTS:[0m  libselinux-python, libsemanage-python,
+        python3-libsemanage
+
+
+[1mAUTHOR[0m: Stephen Fromm (@sfromm)
+
+[1mEXAMPLES:[0m
+- name: Set httpd_can_network_connect flag on and keep it persistent across reboots
+  ansible.posix.seboolean:
+    name: httpd_can_network_connect
+    state: true
+    persistent: true

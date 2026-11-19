@@ -1,0 +1,11 @@
+data/raw/ansible-examples/jboss-standalone/demo-aws-launch.yml:13:    ec2:
+data/raw/ansible-examples/lamp_haproxy/aws/demo-aws-launch.yml:14:    ec2:
+data/raw/ansible-examples/lamp_haproxy/aws/demo-aws-launch.yml:28:    ec2:
+data/raw/ansible-examples/lamp_haproxy/aws/demo-aws-launch.yml:42:    ec2:
+data/raw/ansible-examples/lamp_haproxy/aws/demo-aws-launch.yml:56:    ec2:
+data/raw/ansible-examples/lamp_haproxy/provision.yml:12:    ec2: >
+data/raw/ansible-examples/lamp_haproxy/provision.yml:25:    ec2: >
+data/raw/ansible-examples/lamp_haproxy/provision.yml:38:    ec2: >
+data/raw/ansible-examples/lamp_haproxy/provision.yml:51:    ec2: >
+data/raw/ansible-examples/windows/wamp_haproxy/demo-aws-wamp-launch.yml:12:    ec2: >
+data/raw/ansible-examples/windows/wamp_haproxy/demo-aws-wamp-launch.yml:29:    ec2: >

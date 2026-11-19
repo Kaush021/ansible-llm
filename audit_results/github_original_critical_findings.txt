@@ -1,0 +1,347 @@
+  1 syntax-check profile:min tags:core,unskippable
+
+Failed: 1 failure(s), 0 warning(s) in 1 files processed of 1 encountered.
+syntax-check[unknown-module]: couldn't resolve module/action 'ec2'. This often indicates a misspelling, missing collection, or incorrect module path.
+data/raw/ansible-examples/jboss-standalone/demo-aws-launch.yml:12:5
+
+--
+  1 syntax-check profile:min tags:core,unskippable
+
+Failed: 1 failure(s), 0 warning(s) in 1 files processed of 1 encountered.
+syntax-check[unknown-module]: couldn't resolve module/action 'ec2'. This often indicates a misspelling, missing collection, or incorrect module path.
+data/raw/ansible-examples/lamp_haproxy/aws/demo-aws-launch.yml:13:5
+
+--
+  1 syntax-check profile:min tags:core,unskippable
+
+Failed: 1 failure(s), 0 warning(s) in 1 files processed of 1 encountered.
+syntax-check[unknown-module]: couldn't resolve module/action 'ec2'. This often indicates a misspelling, missing collection, or incorrect module path.
+data/raw/ansible-examples/lamp_haproxy/provision.yml:11:5
+
+--
+yaml[truthy]: Truthy value should be one of [false, true]
+data/raw/ansible-examples/lamp_simple/roles/web/tasks/install_httpd.yml:36
+
+schema[tasks]: Replace 'include' with either 'ansible.builtin.include_tasks' or 'ansible.builtin.import_tasks'. See https://docs.ansible.com/projects/ansible/latest/collections/ansible/builtin/include_module.html
+data/raw/ansible-examples/lamp_simple/roles/web/tasks/main.yml:1  Returned errors will not include exact line numbers, but they will mention
+the schema name being used as a tag, like ``schema[playbook]``,
+``schema[tasks]``.
+
+This rule is not skippable and stops further processing of the file.
+--
+yaml[truthy]: Truthy value should be one of [false, true]
+data/raw/ansible-examples/lamp_simple/roles/web/tasks/install_httpd.yml:36
+
+syntax-check[specific]: The 'ansible.builtin.include' action plugin has been removed. Use include_tasks or import_tasks instead. This feature was removed from ansible-core in a release after 2023-05-16.
+data/raw/ansible-examples/lamp_simple/roles/web/tasks/main.yml:2:3
+
+--
+fqcn[action]: Use FQCN for module actions, such `ansible.posix.seboolean`.
+data/raw/ansible-examples/lamp_simple_rhel7/roles/web/tasks/install_httpd.yml:26:3 Action `seboolean` is not FQCN.
+
+schema[tasks]: Replace 'include' with either 'ansible.builtin.include_tasks' or 'ansible.builtin.import_tasks'. See https://docs.ansible.com/projects/ansible/latest/collections/ansible/builtin/include_module.html
+data/raw/ansible-examples/lamp_simple_rhel7/roles/web/tasks/main.yml:1  Returned errors will not include exact line numbers, but they will mention
+the schema name being used as a tag, like ``schema[playbook]``,
+``schema[tasks]``.
+
+This rule is not skippable and stops further processing of the file.
+--
+fqcn[action]: Use FQCN for module actions, such `ansible.posix.seboolean`.
+data/raw/ansible-examples/lamp_simple_rhel7/roles/web/tasks/install_httpd.yml:26:3 Action `seboolean` is not FQCN.
+
+syntax-check[specific]: The 'ansible.builtin.include' action plugin has been removed. Use include_tasks or import_tasks instead. This feature was removed from ansible-core in a release after 2023-05-16.
+data/raw/ansible-examples/lamp_simple_rhel7/roles/web/tasks/main.yml:2:3
+
+--
+  1 syntax-check profile:min tags:core,unskippable
+
+Failed: 1 failure(s), 0 warning(s) in 1 files processed of 1 encountered.
+syntax-check[unknown-module]: couldn't resolve module/action 'ec2'. This often indicates a misspelling, missing collection, or incorrect module path.
+data/raw/ansible-examples/language_features/eucalyptus-ec2.yml:29:7
+
+--
+  1 syntax-check profile:min tags:core,unskippable
+
+Failed: 1 failure(s), 0 warning(s) in 1 files processed of 1 encountered.
+syntax-check[specific]: Vars in a Play must be specified as a dictionary.
+data/raw/ansible-examples/language_features/get_url.yml:4:3
+
+--
+yaml[truthy]: Truthy value should be one of [false, true]
+data/raw/ansible-examples/language_features/group_commands.yml:6
+
+schema[playbook]: 'become_method' must be one of the currently available values: ansible.builtin.runas, ansible.builtin.su, ansible.builtin.sudo, community.general.doas, community.general.dzdo, community.general.ksu, community.general.machinectl, community.general.pbrun, community.general.pfexec, community.general.pmrun, community.general.run0, community.general.sesu, community.general.sudosu
+data/raw/ansible-examples/language_features/group_commands.yml:7:18  Returned errors will not include exact line numbers, but they will mention
+the schema name being used as a tag, like ``schema[playbook]``,
+``schema[tasks]``.
+
+This rule is not skippable and stops further processing of the file.
+--
+  1 syntax-check profile:min tags:core,unskippable
+
+Failed: 1 failure(s), 0 warning(s) in 1 files processed of 1 encountered.
+syntax-check[specific]: The 'ansible.builtin.include' action plugin has been removed. Use include_tasks or import_tasks instead. This feature was removed from ansible-core in a release after 2023-05-16.
+data/raw/ansible-examples/language_features/intermediate_example.yml:49:7
+
+--
+  1 syntax-check profile:min tags:core,unskippable
+
+Failed: 1 failure(s), 0 warning(s) in 1 files processed of 1 encountered.
+syntax-check[specific]: 'include' is not a valid attribute for a Play
+data/raw/ansible-examples/language_features/nested_playbooks.yml:23:3
+
+--
+  1 syntax-check profile:min tags:core,unskippable
+
+Failed: 1 failure(s), 0 warning(s) in 1 files processed of 1 encountered.
+syntax-check[unknown-module]: couldn't resolve module/action 'netscaler'. This often indicates a misspelling, missing collection, or incorrect module path.
+data/raw/ansible-examples/language_features/netscaler.yml:18:7
+
+--
+  1 syntax-check profile:min tags:core,unskippable
+
+Failed: 1 failure(s), 0 warning(s) in 1 files processed of 1 encountered.
+syntax-check[unknown-module]: couldn't resolve module/action 'postgresql_db'. This often indicates a misspelling, missing collection, or incorrect module path.
+data/raw/ansible-examples/language_features/postgresql.yml:34:5
+
+--
+  2 fqcn profile:basic tags:formatting
+
+Failed: 16 failure(s), 3 warning(s) in 1 files processed of 1 encountered. Last profile that met the validation criteria was 'min'.
+schema[playbook]: $[0].vars_prompt[2] Additional properties are not allowed ('salt' was unexpected)[/]
+data/raw/ansible-examples/language_features/prompts.yml:1  Returned errors will not include exact line numbers, but they will mention
+the schema name being used as a tag, like ``schema[playbook]``,
+``schema[tasks]``.
+
+This rule is not skippable and stops further processing of the file.
+--
+  1 syntax-check profile:min tags:core,unskippable
+
+Failed: 1 failure(s), 0 warning(s) in 1 files processed of 1 encountered.
+syntax-check[unknown-module]: couldn't resolve module/action 'rabbitmq_plugin'. This often indicates a misspelling, missing collection, or incorrect module path.
+data/raw/ansible-examples/language_features/rabbitmq.yml:23:5
+
+--
+  6 fqcn profile:basic tags:formatting
+
+Failed: 28 failure(s), 2 warning(s) in 1 files processed of 1 encountered. Last profile that met the validation criteria was 'min'.
+schema[playbook]: $[0].tasks[4].with_items 'motd_result.stdout_lines' does not match '^\\{[\\{%](.|[\r\n])*[\\}%]\\}$'[/]
+data/raw/ansible-examples/language_features/register_logic.yml:1  Returned errors will not include exact line numbers, but they will mention
+the schema name being used as a tag, like ``schema[playbook]``,
+``schema[tasks]``.
+
+This rule is not skippable and stops further processing of the file.
+--
+  1 syntax-check profile:min tags:core,unskippable
+
+Failed: 1 failure(s), 0 warning(s) in 1 files processed of 1 encountered.
+syntax-check[specific]: conflicting action statements: template, first_available_file
+data/raw/ansible-examples/language_features/selective_file_sources.yml:11:5
+
+--
+  1 syntax-check profile:min tags:core,unskippable
+
+Failed: 1 failure(s), 0 warning(s) in 1 files processed of 1 encountered.
+syntax-check[specific]: The 'ansible.builtin.include' action plugin has been removed. Use include_tasks or import_tasks instead. This feature was removed from ansible-core in a release after 2023-05-16.
+data/raw/ansible-examples/language_features/tags.yml:42:5
+
+--
+  6 fqcn profile:basic tags:formatting
+
+Failed: 27 failure(s), 0 warning(s) in 1 files processed of 1 encountered. Last profile that met the validation criteria was 'min'.
+schema[playbook]: $[0].tasks[4].with_items 'a_list' does not match '^\\{[\\{%](.|[\r\n])*[\\}%]\\}$'[/]
+data/raw/ansible-examples/language_features/upgraded_vars.yml:1  Returned errors will not include exact line numbers, but they will mention
+the schema name being used as a tag, like ``schema[playbook]``,
+``schema[tasks]``.
+
+This rule is not skippable and stops further processing of the file.
+--
+yaml[truthy]: Truthy value should be one of [false, true]
+data/raw/ansible-examples/language_features/zfs.yml:8
+
+schema[playbook]: 'become_method' must be one of the currently available values: ansible.builtin.runas, ansible.builtin.su, ansible.builtin.sudo, community.general.doas, community.general.dzdo, community.general.ksu, community.general.machinectl, community.general.pbrun, community.general.pfexec, community.general.pmrun, community.general.run0, community.general.sesu, community.general.sudosu
+data/raw/ansible-examples/language_features/zfs.yml:9:18  Returned errors will not include exact line numbers, but they will mention
+the schema name being used as a tag, like ``schema[playbook]``,
+``schema[tasks]``.
+
+This rule is not skippable and stops further processing of the file.
+--
+  1 syntax-check profile:min tags:core,unskippable
+
+Failed: 1 failure(s), 0 warning(s) in 1 files processed of 1 encountered.
+syntax-check[unknown-module]: couldn't resolve module/action 'mongodb_user'. This often indicates a misspelling, missing collection, or incorrect module path.
+data/raw/ansible-examples/mongodb/playbooks/testsharding.yml:7:6
+
+--
+ 10 fqcn profile:basic tags:formatting
+
+Failed: 30 failure(s), 0 warning(s) in 1 files processed of 1 encountered. Last profile that met the validation criteria was 'min'.
+schema[tasks]: $[0].with_items 'groups.replication_servers' does not match '^\\{[\\{%](.|[\r\n])*[\\}%]\\}$'[/]
+data/raw/ansible-examples/mongodb/roles/mongod/tasks/main.yml:1  Returned errors will not include exact line numbers, but they will mention
+the schema name being used as a tag, like ``schema[playbook]``,
+``schema[tasks]``.
+
+This rule is not skippable and stops further processing of the file.
+--
+  2 fqcn profile:basic tags:formatting
+
+Failed: 9 failure(s), 0 warning(s) in 1 files processed of 1 encountered. Last profile that met the validation criteria was 'min'.
+schema[tasks]: $[0].with_items 'groups.mongos_servers' does not match '^\\{[\\{%](.|[\r\n])*[\\}%]\\}$'[/]
+data/raw/ansible-examples/mongodb/roles/mongod/tasks/shards.yml:1  Returned errors will not include exact line numbers, but they will mention
+the schema name being used as a tag, like ``schema[playbook]``,
+``schema[tasks]``.
+
+This rule is not skippable and stops further processing of the file.
+--
+fqcn[action-core]: Use FQCN for builtin module actions (template).
+data/raw/ansible-examples/mongodb/roles/common/tasks/main.yml:35:3 Use `ansible.builtin.template` or `ansible.legacy.template` instead.
+
+syntax-check[unknown-module]: couldn't resolve module/action 'mongodb_user'. This often indicates a misspelling, missing collection, or incorrect module path.
+data/raw/ansible-examples/mongodb/roles/mongoc/tasks/main.yml:24:3
+
+schema[tasks]: $[0].with_items 'groups.replication_servers' does not match '^\\{[\\{%](.|[\r\n])*[\\}%]\\}$'[/]
+data/raw/ansible-examples/mongodb/roles/mongod/tasks/main.yml:1  Returned errors will not include exact line numbers, but they will mention
+the schema name being used as a tag, like ``schema[playbook]``,
+``schema[tasks]``.
+
+This rule is not skippable and stops further processing of the file.
+--
+fqcn[action-core]: Use FQCN for builtin module actions (shell).
+data/raw/ansible-examples/mongodb/roles/mongod/tasks/main.yml:42:3 Use `ansible.builtin.shell` or `ansible.legacy.shell` instead.
+
+schema[tasks]: $[0].with_items 'groups.mongos_servers' does not match '^\\{[\\{%](.|[\r\n])*[\\}%]\\}$'[/]
+data/raw/ansible-examples/mongodb/roles/mongod/tasks/shards.yml:1  Returned errors will not include exact line numbers, but they will mention
+the schema name being used as a tag, like ``schema[playbook]``,
+``schema[tasks]``.
+
+This rule is not skippable and stops further processing of the file.
+--
+fqcn[action-core]: Use FQCN for builtin module actions (template).
+data/raw/ansible-examples/mongodb/roles/mongos/tasks/main.yml:23:3 Use `ansible.builtin.template` or `ansible.legacy.template` instead.
+
+schema[playbook]: Replace 'include' with either 'ansible.builtin.include_tasks' or 'ansible.builtin.import_tasks'. See https://docs.ansible.com/projects/ansible/latest/collections/ansible/builtin/include_module.html
+data/raw/ansible-examples/mongodb/site.yml:1  Returned errors will not include exact line numbers, but they will mention
+the schema name being used as a tag, like ``schema[playbook]``,
+``schema[tasks]``.
+
+This rule is not skippable and stops further processing of the file.
+--
+  1 syntax-check profile:min tags:core,unskippable
+
+Failed: 1 failure(s), 0 warning(s) in 1 files processed of 1 encountered.
+syntax-check[unknown-module]: couldn't resolve module/action 'rust_helloworld'. This often indicates a misspelling, missing collection, or incorrect module path.
+data/raw/ansible-examples/rust-module-hello-world/rust.yml:13:5
+
+--
+yaml[truthy]: Truthy value should be one of [false, true]
+data/raw/ansible-examples/tomcat-standalone/roles/tomcat/tasks/main.yml:10
+
+schema[tasks]: 'become_method' must be one of the currently available values: ansible.builtin.runas, ansible.builtin.su, ansible.builtin.sudo, community.general.doas, community.general.dzdo, community.general.ksu, community.general.machinectl, community.general.pbrun, community.general.pfexec, community.general.pmrun, community.general.run0, community.general.sesu, community.general.sudosu
+data/raw/ansible-examples/tomcat-standalone/roles/tomcat/tasks/main.yml:11:18  Returned errors will not include exact line numbers, but they will mention
+the schema name being used as a tag, like ``schema[playbook]``,
+``schema[tasks]``.
+
+This rule is not skippable and stops further processing of the file.
+--
+yaml[truthy]: Truthy value should be one of [false, true]
+data/raw/ansible-examples/tomcat-standalone/roles/tomcat/tasks/main.yml:10
+
+schema[tasks]: 'become_method' must be one of the currently available values: ansible.builtin.runas, ansible.builtin.su, ansible.builtin.sudo, community.general.doas, community.general.dzdo, community.general.ksu, community.general.machinectl, community.general.pbrun, community.general.pfexec, community.general.pmrun, community.general.run0, community.general.sesu, community.general.sudosu
+data/raw/ansible-examples/tomcat-standalone/roles/tomcat/tasks/main.yml:11:18  Returned errors will not include exact line numbers, but they will mention
+the schema name being used as a tag, like ``schema[playbook]``,
+``schema[tasks]``.
+
+This rule is not skippable and stops further processing of the file.
+--
+yaml[truthy]: Truthy value should be one of [false, true]
+data/raw/ansible-examples/tomcat-standalone/site.yml:6
+
+schema[playbook]: 'become_method' must be one of the currently available values: ansible.builtin.runas, ansible.builtin.su, ansible.builtin.sudo, community.general.doas, community.general.dzdo, community.general.ksu, community.general.machinectl, community.general.pbrun, community.general.pfexec, community.general.pmrun, community.general.run0, community.general.sesu, community.general.sudosu
+data/raw/ansible-examples/tomcat-standalone/site.yml:7:18  Returned errors will not include exact line numbers, but they will mention
+the schema name being used as a tag, like ``schema[playbook]``,
+``schema[tasks]``.
+
+This rule is not skippable and stops further processing of the file.
+--
+  1 syntax-check profile:min tags:core,unskippable
+
+Failed: 1 failure(s), 0 warning(s) in 1 files processed of 1 encountered.
+syntax-check[unknown-module]: couldn't resolve module/action 'win_user'. This often indicates a misspelling, missing collection, or incorrect module path.
+data/raw/ansible-examples/windows/create-user.yml:6:7
+
+--
+  1 syntax-check profile:min tags:core,unskippable
+
+Failed: 1 failure(s), 0 warning(s) in 1 files processed of 1 encountered.
+syntax-check[unknown-module]: couldn't resolve module/action 'win_get_url'. This often indicates a misspelling, missing collection, or incorrect module path.
+data/raw/ansible-examples/windows/deploy-site.yml:8:7
+
+--
+  1 syntax-check profile:min tags:core,unskippable
+
+Failed: 1 failure(s), 0 warning(s) in 1 files processed of 1 encountered.
+syntax-check[unknown-module]: couldn't resolve module/action 'win_feature'. This often indicates a misspelling, missing collection, or incorrect module path.
+data/raw/ansible-examples/windows/enable-iis.yml:8:7
+
+--
+  1 syntax-check profile:min tags:core,unskippable
+
+Failed: 1 failure(s), 0 warning(s) in 1 files processed of 1 encountered.
+syntax-check[unknown-module]: couldn't resolve module/action 'win_get_url'. This often indicates a misspelling, missing collection, or incorrect module path.
+data/raw/ansible-examples/windows/install-msi.yml:6:7
+
+--
+  1 syntax-check profile:min tags:core,unskippable
+
+Failed: 1 failure(s), 0 warning(s) in 1 files processed of 1 encountered.
+syntax-check[unknown-module]: couldn't resolve module/action 'win_ping'. This often indicates a misspelling, missing collection, or incorrect module path.
+data/raw/ansible-examples/windows/ping.yml:7:5
+
+--
+  1 syntax-check profile:min tags:core,unskippable
+
+Failed: 1 failure(s), 0 warning(s) in 1 files processed of 1 encountered.
+syntax-check[unknown-module]: couldn't resolve module/action 'win_stat'. This often indicates a misspelling, missing collection, or incorrect module path.
+data/raw/ansible-examples/windows/test.yml:13:7
+
+--
+  1 syntax-check profile:min tags:core,unskippable
+
+Failed: 1 failure(s), 0 warning(s) in 1 files processed of 1 encountered.
+syntax-check[unknown-module]: couldn't resolve module/action 'ec2'. This often indicates a misspelling, missing collection, or incorrect module path.
+data/raw/ansible-examples/windows/wamp_haproxy/demo-aws-wamp-launch.yml:11:5
+
+--
+  1 fqcn profile:min tags:formatting
+
+Failed: 12 failure(s), 0 warning(s) in 2 files processed of 2 encountered.
+syntax-check[unknown-module]: couldn't resolve module/action 'win_get_url'. This often indicates a misspelling, missing collection, or incorrect module path.
+data/raw/ansible-examples/windows/wamp_haproxy/roles/web/tasks/main.yml:4:3
+
+--
+yaml[empty-lines]: Too many blank lines (1 > 0)
+data/raw/ansible-examples/windows/wamp_haproxy/roles/elb/tasks/main.yml:16
+
+syntax-check[unknown-module]: couldn't resolve module/action 'win_feature'. This often indicates a misspelling, missing collection, or incorrect module path.
+data/raw/ansible-examples/windows/wamp_haproxy/roles/iis/tasks/main.yml:3:3
+
+--
+yaml[truthy]: Truthy value should be one of [false, true]
+data/raw/ansible-examples/wordpress-nginx/roles/wordpress/tasks/main.yml:22
+
+schema[tasks]: 'become_method' must be one of the currently available values: ansible.builtin.runas, ansible.builtin.su, ansible.builtin.sudo, community.general.doas, community.general.dzdo, community.general.ksu, community.general.machinectl, community.general.pbrun, community.general.pfexec, community.general.pmrun, community.general.run0, community.general.sesu, community.general.sudosu
+data/raw/ansible-examples/wordpress-nginx/roles/wordpress/tasks/main.yml:23:18  Returned errors will not include exact line numbers, but they will mention
+the schema name being used as a tag, like ``schema[playbook]``,
+``schema[tasks]``.
+
+This rule is not skippable and stops further processing of the file.
+--
+yaml[truthy]: Truthy value should be one of [false, true]
+data/raw/ansible-examples/wordpress-nginx/roles/wordpress/tasks/main.yml:22
+
+schema[tasks]: 'become_method' must be one of the currently available values: ansible.builtin.runas, ansible.builtin.su, ansible.builtin.sudo, community.general.doas, community.general.dzdo, community.general.ksu, community.general.machinectl, community.general.pbrun, community.general.pfexec, community.general.pmrun, community.general.run0, community.general.sesu, community.general.sudosu
+data/raw/ansible-examples/wordpress-nginx/roles/wordpress/tasks/main.yml:23:18  Returned errors will not include exact line numbers, but they will mention
+the schema name being used as a tag, like ``schema[playbook]``,
+``schema[tasks]``.
+
+This rule is not skippable and stops further processing of the file.
