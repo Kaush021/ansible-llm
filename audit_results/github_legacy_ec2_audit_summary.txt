@@ -1,0 +1,63 @@
+GITHUB LEGACY EC2 AUDIT SUMMARY
+Generated: Mon Oct 26 12:43:49 UTC 2026
+
+1. OCCURRENCES
+data/raw/ansible-examples/jboss-standalone/demo-aws-launch.yml:13:    ec2:
+data/raw/ansible-examples/lamp_haproxy/aws/demo-aws-launch.yml:14:    ec2:
+data/raw/ansible-examples/lamp_haproxy/aws/demo-aws-launch.yml:28:    ec2:
+data/raw/ansible-examples/lamp_haproxy/aws/demo-aws-launch.yml:42:    ec2:
+data/raw/ansible-examples/lamp_haproxy/aws/demo-aws-launch.yml:56:    ec2:
+data/raw/ansible-examples/lamp_haproxy/provision.yml:12:    ec2: >
+data/raw/ansible-examples/lamp_haproxy/provision.yml:25:    ec2: >
+data/raw/ansible-examples/lamp_haproxy/provision.yml:38:    ec2: >
+data/raw/ansible-examples/lamp_haproxy/provision.yml:51:    ec2: >
+data/raw/ansible-examples/windows/wamp_haproxy/demo-aws-wamp-launch.yml:12:    ec2: >
+data/raw/ansible-examples/windows/wamp_haproxy/demo-aws-wamp-launch.yml:29:    ec2: >
+
+2. COUNTS
+EC2 task occurrences: 11
+Distinct YAML files: 4
+
+3. EXISTING MIGRATION NOTES
+
+===== scripts/audit_results/legacy_ec2_migration_notes.txt =====
+File: data/raw/ansible-examples/jboss-standalone/demo-aws-launch.yml
+
+Finding:
+- The playbook uses the legacy ec2 module to launch AWS instances.
+- The current environment does not provide the legacy ec2 module.
+- The modern candidate is amazon.aws.ec2_instance.
+- The original task uses access_key, secret_key, keypair, group, type,
+  image, region, instance_tags, count, and wait.
+- The task registers its output as ec2.
+- The following SSH-wait task iterates over ec2.instances and uses
+  item.public_dns_name.
+
+Migration precautions:
+- Verify legacy-to-modern parameter mappings against module documentation.
+- Verify the registered result structure before changing the SSH-wait task.
+- Preserve the original source file.
+- Do not execute the playbook or launch AWS instances during this audit.
+
+===== scripts/audit_results/legacy_jboss_migration_notes.txt =====
+File: data/raw/ansible-examples/jboss-standalone/roles/java-app/tasks/main.yml
+
+Finding:
+- The legacy jboss module is not available in the current Ansible environment.
+- Two tasks use jboss to deploy WAR applications.
+- The first deploys /tmp/jboss-helloworld.war as helloworld.war.
+- The second deploys /tmp/ticket-monster.war as ticket-monster.war.
+- Both target /usr/share/jboss-as/standalone/deployments/.
+- Both use deploy_path, src, deployment, and state: present.
+
+Migration precautions:
+- Identify the original JBoss/Ansible module implementation and expected behavior.
+- Choose a replacement compatible with the target JBoss/WildFly version.
+- Do not assume that copying a WAR file is equivalent to deploying it.
+- Preserve the original source file and do not execute deployment tasks during this audit.
+
+4. RECOMMENDATION
+- Preserve all original source YAML files.
+- Do not perform blind text replacement of the legacy ec2 module.
+- Review parameter mapping, AMI IDs, instance types, credentials, and registered results.
+- Validate any migrated copy without launching AWS resources.

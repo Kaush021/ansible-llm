@@ -1,0 +1,18 @@
+=== DATASET FILE COMPARISON ===
+Checked: Mon Oct 26 14:17:43 UTC 2026
+
+WSL data files:
+6503
+Windows data files:
+0
+
+WSL fine-tuning JSONL files:
+/home/kiki_021/projects/ansible-llm/data/finetuning/candidates/galaxy_instructions.jsonl
+/home/kiki_021/projects/ansible-llm/data/finetuning/candidates/mysql_instructions.jsonl
+/home/kiki_021/projects/ansible-llm/data/finetuning/combined/ansible_instructions.jsonl
+/home/kiki_021/projects/ansible-llm/data/finetuning/curated/ansible_instructions.jsonl
+/home/kiki_021/projects/ansible-llm/data/finetuning/splits/test.jsonl
+/home/kiki_021/projects/ansible-llm/data/finetuning/splits/train.jsonl
+/home/kiki_021/projects/ansible-llm/data/finetuning/splits/validation.jsonl
+
+Windows fine-tuning JSONL files:

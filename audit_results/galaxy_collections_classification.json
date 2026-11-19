@@ -1,0 +1,47 @@
+{
+  "total_yaml_files": 2414,
+  "categories": {
+    "documentation_or_ci": 62,
+    "metadata": 10,
+    "other_yaml": 45,
+    "templates": 9,
+    "tests_or_molecule": 2288
+  },
+  "sample_paths": {
+    "documentation_or_ci": [
+      "data/extracted/galaxy/community-docker-5.4.0/.github/dependabot.yml",
+      "data/extracted/galaxy/community-docker-5.4.0/.github/patchback.yml",
+      "data/extracted/galaxy/community-docker-5.4.0/docs/docsite/links.yml",
+      "data/extracted/galaxy/community-docker-5.4.0/docs/docsite/config.yml",
+      "data/extracted/galaxy/community-docker-5.4.0/docs/docsite/extra-docs.yml"
+    ],
+    "metadata": [
+      "data/extracted/galaxy/community-docker-5.4.0/meta/execution-environment.yml",
+      "data/extracted/galaxy/community-docker-5.4.0/meta/runtime.yml",
+      "data/extracted/galaxy/community-library_inventory_filtering_v1-1.1.5/meta/runtime.yml",
+      "data/extracted/galaxy/ansible-mysql-5.2.0/meta/execution-environment.yml",
+      "data/extracted/galaxy/ansible-mysql-5.2.0/meta/runtime.yml"
+    ],
+    "other_yaml": [
+      "data/extracted/galaxy/community-general-13.5.0/.pre-commit-config.yaml",
+      "data/extracted/galaxy/ansible-posix-2.2.2/shippable.yml",
+      "data/extracted/galaxy/ansible-posix-2.2.2/codecov.yml",
+      "data/extracted/galaxy/community-library_inventory_filtering_v1-1.1.5/codecov.yml",
+      "data/extracted/galaxy/community-docker-5.4.0/changelogs/config.yaml"
+    ],
+    "templates": [
+      "data/extracted/galaxy/community-docker-5.4.0/.azure-pipelines/templates/coverage.yml",
+      "data/extracted/galaxy/community-docker-5.4.0/.azure-pipelines/templates/matrix.yml",
+      "data/extracted/galaxy/community-docker-5.4.0/.azure-pipelines/templates/test.yml",
+      "data/extracted/galaxy/ansible-posix-2.2.2/.azure-pipelines/templates/coverage.yml",
+      "data/extracted/galaxy/ansible-posix-2.2.2/.azure-pipelines/templates/matrix.yml"
+    ],
+    "tests_or_molecule": [
+      "data/extracted/galaxy/community-docker-5.4.0/tests/config.yml",
+      "data/extracted/galaxy/community-docker-5.4.0/tests/integration/requirements.yml",
+      "data/extracted/galaxy/community-docker-5.4.0/tests/unit/requirements.yml",
+      "data/extracted/galaxy/community-docker-5.4.0/tests/ee/all.yml",
+      "data/extracted/galaxy/community-docker-5.4.0/tests/ee/roles/docker_stack/tasks/main.yml"
+    ]
+  }
+}

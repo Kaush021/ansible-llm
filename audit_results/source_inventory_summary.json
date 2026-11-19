@@ -1,0 +1,20 @@
+{
+  "generated_from": "current project directories",
+  "sources": {
+    "github_examples": {
+      "directory": "/home/kiki_021/projects/ansible-llm/data/raw/ansible-examples",
+      "yaml_files": 151,
+      "inventory_report": "scripts/audit_results/github_examples_inventory.txt"
+    },
+    "github_roles": {
+      "directory": "/home/kiki_021/projects/ansible-llm/data/raw/galaxy-roles",
+      "yaml_files": 80,
+      "inventory_report": "scripts/audit_results/github_roles_inventory.txt"
+    },
+    "galaxy_collections": {
+      "directory": "/home/kiki_021/projects/ansible-llm/data/extracted/galaxy",
+      "yaml_files": 2414,
+      "inventory_report": "scripts/audit_results/galaxy_collections_inventory.txt"
+    }
+  }
+}

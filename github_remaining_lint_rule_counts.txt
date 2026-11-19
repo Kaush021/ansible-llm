@@ -1,0 +1,5 @@
+=== Remaining GitHub Ansible Lint Rules ===
+   34  Origin
+
+Distinct rules: 1
+FQCN finding lines: 0

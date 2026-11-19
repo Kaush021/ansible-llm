@@ -1,0 +1,161 @@
+{
+  "scope": "data/raw/ansible-examples",
+  "yaml_files": 150,
+  "parsed_files": 150,
+  "parse_errors": 0,
+  "likely_complete_playbook_files": 65,
+  "role_task_files_by_path": 51,
+  "task_entries_heuristic": 203,
+  "tasks_with_names": 160,
+  "tasks_without_names": 43,
+  "top_module_or_action_keys": [
+    [
+      "shell",
+      28
+    ],
+    [
+      "ec2",
+      12
+    ],
+    [
+      "uri",
+      12
+    ],
+    [
+      "debug",
+      10
+    ],
+    [
+      "command",
+      9
+    ],
+    [
+      "user",
+      9
+    ],
+    [
+      "file",
+      8
+    ],
+    [
+      "ping",
+      8
+    ],
+    [
+      "template",
+      6
+    ],
+    [
+      "service",
+      6
+    ],
+    [
+      "zfs",
+      6
+    ],
+    [
+      "wait_for",
+      5
+    ],
+    [
+      "assert",
+      5
+    ],
+    [
+      "nagios",
+      4
+    ],
+    [
+      "haproxy",
+      4
+    ],
+    [
+      "yum",
+      4
+    ],
+    [
+      "include",
+      4
+    ],
+    [
+      "apt",
+      4
+    ],
+    [
+      "pause",
+      4
+    ],
+    [
+      "include_vars",
+      4
+    ],
+    [
+      "rust_helloworld",
+      4
+    ],
+    [
+      "group",
+      3
+    ],
+    [
+      "async",
+      3
+    ],
+    [
+      "poll",
+      3
+    ],
+    [
+      "copy",
+      2
+    ]
+  ],
+  "sample_playbook_paths": [
+    "data/raw/ansible-examples/jboss-standalone/demo-aws-launch.yml",
+    "data/raw/ansible-examples/jboss-standalone/deploy-application.yml",
+    "data/raw/ansible-examples/jboss-standalone/site.yml",
+    "data/raw/ansible-examples/lamp_haproxy/aws/demo-aws-launch.yml",
+    "data/raw/ansible-examples/lamp_haproxy/aws/rolling_update.yml",
+    "data/raw/ansible-examples/lamp_haproxy/aws/site.yml",
+    "data/raw/ansible-examples/lamp_haproxy/provision.yml",
+    "data/raw/ansible-examples/lamp_haproxy/rolling_update.yml",
+    "data/raw/ansible-examples/lamp_haproxy/site.yml",
+    "data/raw/ansible-examples/lamp_simple/site.yml"
+  ],
+  "sample_role_task_paths": [
+    "data/raw/ansible-examples/jboss-standalone/roles/java-app/tasks/main.yml",
+    "data/raw/ansible-examples/jboss-standalone/roles/jboss-standalone/tasks/main.yml",
+    "data/raw/ansible-examples/lamp_haproxy/aws/roles/base-apache/tasks/main.yml",
+    "data/raw/ansible-examples/lamp_haproxy/aws/roles/common/tasks/main.yml",
+    "data/raw/ansible-examples/lamp_haproxy/aws/roles/db/tasks/main.yml",
+    "data/raw/ansible-examples/lamp_haproxy/aws/roles/haproxy/tasks/main.yml",
+    "data/raw/ansible-examples/lamp_haproxy/aws/roles/nagios/tasks/main.yml",
+    "data/raw/ansible-examples/lamp_haproxy/aws/roles/web/tasks/main.yml",
+    "data/raw/ansible-examples/lamp_haproxy/roles/base-apache/tasks/main.yml",
+    "data/raw/ansible-examples/lamp_haproxy/roles/common/tasks/main.yml"
+  ],
+  "sample_named_tasks": [
+    {
+      "file": "data/raw/ansible-examples/jboss-standalone/demo-aws-launch.yml",
+      "name": "Launch instances"
+    },
+    {
+      "file": "data/raw/ansible-examples/jboss-standalone/demo-aws-launch.yml",
+      "name": "Wait for SSH to come up"
+    },
+    {
+      "file": "data/raw/ansible-examples/lamp_haproxy/aws/demo-aws-launch.yml",
+      "name": "Launch webserver instances"
+    },
+    {
+      "file": "data/raw/ansible-examples/lamp_haproxy/aws/demo-aws-launch.yml",
+      "name": "Launch database instance"
+    },
+    {
+      "file": "data/raw/ansible-examples/lamp_haproxy/aws/demo-aws-launch.yml",
+      "name": "Launch load balancing instance"
+    }
+  ],
+  "sample_parse_errors": [],
+  "caveat": "Heuristic structural audit. Some module/action keys may be misclassified; counts require review before treating them as final ground truth."
+}

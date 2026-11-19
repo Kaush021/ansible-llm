@@ -1,0 +1,12 @@
+=== FINE-TUNING DATASET VERIFICATION ===
+Checked: Mon Oct 26 14:23:54 UTC 2026
+
+PRESENT: data/finetuning/candidates/galaxy_instructions.jsonl
+PRESENT: data/finetuning/candidates/mysql_instructions.jsonl
+PRESENT: data/finetuning/combined/ansible_instructions.jsonl
+PRESENT: data/finetuning/curated/ansible_instructions.jsonl
+PRESENT: data/finetuning/splits/train.jsonl
+PRESENT: data/finetuning/splits/validation.jsonl
+PRESENT: data/finetuning/splits/test.jsonl
+
+Total JSONL files: 7

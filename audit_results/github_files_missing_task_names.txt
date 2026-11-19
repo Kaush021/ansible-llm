@@ -1,0 +1,13 @@
+data/raw/ansible-examples/language_features/custom_filters.yml
+data/raw/ansible-examples/language_features/environment.yml
+data/raw/ansible-examples/language_features/group_commands.yml
+data/raw/ansible-examples/language_features/loop_nested.yml
+data/raw/ansible-examples/language_features/loop_plugins.yml
+data/raw/ansible-examples/language_features/register_logic.yml
+data/raw/ansible-examples/language_features/roletest.yml
+data/raw/ansible-examples/language_features/roletest2.yml
+data/raw/ansible-examples/language_features/upgraded_vars.yml
+data/raw/ansible-examples/language_features/user_commands.yml
+data/raw/ansible-examples/mongodb/site.yml
+data/raw/ansible-examples/phillips_hue/effect.yml
+data/raw/ansible-examples/phillips_hue/register.yml

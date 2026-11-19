@@ -1,0 +1,50 @@
+{
+  "total_yaml_files": 151,
+  "categories": {
+    "documentation_or_ci": 1,
+    "likely_playbooks": 12,
+    "other_yaml": 54,
+    "role_handlers": 29,
+    "role_tasks": 51,
+    "role_variables": 4
+  },
+  "sample_paths": {
+    "documentation_or_ci": [
+      "data/raw/ansible-examples/.github/workflows/main.yml"
+    ],
+    "likely_playbooks": [
+      "data/raw/ansible-examples/wordpress-nginx_rhel7/site.yml",
+      "data/raw/ansible-examples/lamp_simple/site.yml",
+      "data/raw/ansible-examples/tomcat-memcached-failover/site.yml",
+      "data/raw/ansible-examples/jboss-standalone/site.yml",
+      "data/raw/ansible-examples/tomcat-standalone/site.yml"
+    ],
+    "other_yaml": [
+      "data/raw/ansible-examples/language_features/eucalyptus-ec2.yml",
+      "data/raw/ansible-examples/language_features/custom_filters.yml",
+      "data/raw/ansible-examples/language_features/rabbitmq.yml",
+      "data/raw/ansible-examples/language_features/environment.yml",
+      "data/raw/ansible-examples/language_features/netscaler.yml"
+    ],
+    "role_handlers": [
+      "data/raw/ansible-examples/mongodb/roles/common/handlers/main.yml",
+      "data/raw/ansible-examples/lamp_simple_rhel7/roles/db/handlers/main.yml",
+      "data/raw/ansible-examples/lamp_simple_rhel7/roles/common/handlers/main.yml",
+      "data/raw/ansible-examples/wordpress-nginx/roles/mysql/handlers/main.yml",
+      "data/raw/ansible-examples/wordpress-nginx/roles/nginx/handlers/main.yml"
+    ],
+    "role_tasks": [
+      "data/raw/ansible-examples/mongodb/roles/mongod/tasks/main.yml",
+      "data/raw/ansible-examples/mongodb/roles/mongod/tasks/shards.yml",
+      "data/raw/ansible-examples/mongodb/roles/mongoc/tasks/main.yml",
+      "data/raw/ansible-examples/mongodb/roles/mongos/tasks/main.yml",
+      "data/raw/ansible-examples/mongodb/roles/common/tasks/main.yml"
+    ],
+    "role_variables": [
+      "data/raw/ansible-examples/language_features/vars/defaults.yml",
+      "data/raw/ansible-examples/language_features/vars/CentOS.yml",
+      "data/raw/ansible-examples/language_features/vars/external_vars.yml",
+      "data/raw/ansible-examples/language_features/roles/foo/vars/main.yml"
+    ]
+  }
+}

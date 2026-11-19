@@ -1,0 +1,10 @@
+=== FQCN RESULTS AFTER AUTO-FIX ===
+Date: Tue Oct 27 10:15:30 UTC 2026
+
+FQCN findings in fix log:
+0
+
+FQCN rule breakdown:
+
+Files changed in working copy:
+138

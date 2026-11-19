@@ -1,0 +1,18 @@
+.venv/
+.venv-wsl/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+data/raw/
+data/extracted/
+data/cleaned/
+
+# Temporary audit logs and backups
+*.log
+audit_results/fqcn_manual_backups/
+
+# Backup files
+*.bak
+
+scripts/scripts/

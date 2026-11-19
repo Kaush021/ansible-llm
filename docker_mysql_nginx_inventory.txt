@@ -1,0 +1,9 @@
+
+=== Docker role ===
+Directory not found: data/raw/galaxy-roles/docker
+
+=== MySQL role ===
+Directory not found: data/raw/galaxy-roles/mysql
+
+=== Nginx role ===
+Directory not found: data/raw/galaxy-roles/nginx

@@ -1,0 +1,51 @@
+{
+  "total_yaml_files": 80,
+  "categories": {
+    "documentation_or_ci": 12,
+    "metadata": 3,
+    "role_handlers": 3,
+    "role_tasks": 25,
+    "role_variables": 29,
+    "tests_or_molecule": 8
+  },
+  "sample_paths": {
+    "documentation_or_ci": [
+      "data/raw/galaxy-roles/geerlingguy.nginx/.github/FUNDING.yml",
+      "data/raw/galaxy-roles/geerlingguy.nginx/.github/workflows/stale.yml",
+      "data/raw/galaxy-roles/geerlingguy.nginx/.github/workflows/ci.yml",
+      "data/raw/galaxy-roles/geerlingguy.nginx/.github/workflows/release.yml",
+      "data/raw/galaxy-roles/geerlingguy.docker/.github/FUNDING.yml"
+    ],
+    "metadata": [
+      "data/raw/galaxy-roles/geerlingguy.nginx/meta/main.yml",
+      "data/raw/galaxy-roles/geerlingguy.docker/meta/main.yml",
+      "data/raw/galaxy-roles/geerlingguy.mysql/meta/main.yml"
+    ],
+    "role_handlers": [
+      "data/raw/galaxy-roles/geerlingguy.nginx/handlers/main.yml",
+      "data/raw/galaxy-roles/geerlingguy.docker/handlers/main.yml",
+      "data/raw/galaxy-roles/geerlingguy.mysql/handlers/main.yml"
+    ],
+    "role_tasks": [
+      "data/raw/galaxy-roles/geerlingguy.nginx/tasks/main.yml",
+      "data/raw/galaxy-roles/geerlingguy.nginx/tasks/setup-Ubuntu.yml",
+      "data/raw/galaxy-roles/geerlingguy.nginx/tasks/setup-FreeBSD.yml",
+      "data/raw/galaxy-roles/geerlingguy.nginx/tasks/setup-RedHat.yml",
+      "data/raw/galaxy-roles/geerlingguy.nginx/tasks/setup-OpenBSD.yml"
+    ],
+    "role_variables": [
+      "data/raw/galaxy-roles/geerlingguy.nginx/vars/Rocky.yml",
+      "data/raw/galaxy-roles/geerlingguy.nginx/vars/FreeBSD.yml",
+      "data/raw/galaxy-roles/geerlingguy.nginx/vars/Suse.yml",
+      "data/raw/galaxy-roles/geerlingguy.nginx/vars/Archlinux.yml",
+      "data/raw/galaxy-roles/geerlingguy.nginx/vars/RedHat.yml"
+    ],
+    "tests_or_molecule": [
+      "data/raw/galaxy-roles/geerlingguy.nginx/molecule/default/converge.yml",
+      "data/raw/galaxy-roles/geerlingguy.nginx/molecule/default/molecule.yml",
+      "data/raw/galaxy-roles/geerlingguy.docker/molecule/default/verify.yml",
+      "data/raw/galaxy-roles/geerlingguy.docker/molecule/default/converge.yml",
+      "data/raw/galaxy-roles/geerlingguy.docker/molecule/default/molecule.yml"
+    ]
+  }
+}

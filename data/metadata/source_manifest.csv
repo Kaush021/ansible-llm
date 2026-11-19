@@ -1,0 +1,4 @@
+role,version,source_directory,license,copyright,purpose
+geerlingguy.docker,8.0.0,data/raw/galaxy-roles/geerlingguy.docker,MIT,Jeff Geerling, Docker installation and configuration
+geerlingguy.mysql,6.5.0,data/raw/galaxy-roles/geerlingguy.mysql,MIT,Jeff Geerling,MySQL installation and database management
+geerlingguy.nginx,3.3.1,data/raw/galaxy-roles/geerlingguy.nginx,MIT,Jeff Geerling,Nginx installation and web server configuration

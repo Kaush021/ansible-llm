@@ -1,0 +1,8 @@
+=== GitHub YAML File Scope Check ===
+Original raw YAML files: 151
+Cleaned YAML files:      151
+Files common to both:    151
+Missing from cleaned:    0
+Extra in cleaned:        0
+
+Scope report saved to github_150_file_scope_check.txt

@@ -1,0 +1,194 @@
+PLAYBOOK: data/raw/ansible-examples/jboss-standalone/demo-aws-launch.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/jboss-standalone/deploy-application.yml
+  ROLES: java-app
+PLAYBOOK: data/raw/ansible-examples/jboss-standalone/site.yml
+  ROLES: jboss-standalone
+PLAYBOOK: data/raw/ansible-examples/lamp_haproxy/aws/demo-aws-launch.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/lamp_haproxy/aws/rolling_update.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/lamp_haproxy/aws/rolling_update.yml
+  ROLES: web
+PLAYBOOK: data/raw/ansible-examples/lamp_haproxy/aws/site.yml
+  ROLES: common
+PLAYBOOK: data/raw/ansible-examples/lamp_haproxy/aws/site.yml
+  ROLES: db
+PLAYBOOK: data/raw/ansible-examples/lamp_haproxy/aws/site.yml
+  ROLES: base-apache, web
+PLAYBOOK: data/raw/ansible-examples/lamp_haproxy/aws/site.yml
+  ROLES: haproxy
+PLAYBOOK: data/raw/ansible-examples/lamp_haproxy/aws/site.yml
+  ROLES: base-apache, nagios
+PLAYBOOK: data/raw/ansible-examples/lamp_haproxy/provision.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/lamp_haproxy/rolling_update.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/lamp_haproxy/rolling_update.yml
+  ROLES: common, base-apache, web
+PLAYBOOK: data/raw/ansible-examples/lamp_haproxy/site.yml
+  ROLES: common
+PLAYBOOK: data/raw/ansible-examples/lamp_haproxy/site.yml
+  ROLES: db
+PLAYBOOK: data/raw/ansible-examples/lamp_haproxy/site.yml
+  ROLES: base-apache, web
+PLAYBOOK: data/raw/ansible-examples/lamp_haproxy/site.yml
+  ROLES: haproxy
+PLAYBOOK: data/raw/ansible-examples/lamp_haproxy/site.yml
+  ROLES: base-apache, nagios
+PLAYBOOK: data/raw/ansible-examples/lamp_simple/site.yml
+  ROLES: common
+PLAYBOOK: data/raw/ansible-examples/lamp_simple/site.yml
+  ROLES: web
+PLAYBOOK: data/raw/ansible-examples/lamp_simple/site.yml
+  ROLES: db
+PLAYBOOK: data/raw/ansible-examples/lamp_simple_rhel7/site.yml
+  ROLES: common
+PLAYBOOK: data/raw/ansible-examples/lamp_simple_rhel7/site.yml
+  ROLES: web
+PLAYBOOK: data/raw/ansible-examples/lamp_simple_rhel7/site.yml
+  ROLES: db
+PLAYBOOK: data/raw/ansible-examples/language_features/ansible_pull.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/batch_size_control.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/cloudformation.yaml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/complex_args.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/conditionals_part1.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/conditionals_part2.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/custom_filters.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/delegation.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/environment.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/eucalyptus-ec2.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/eucalyptus-ec2.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/file_secontext.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/get_url.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/group_by.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/group_by.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/group_by.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/group_commands.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/intermediate_example.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/intermediate_example.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/intro_example.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/loop_nested.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/loop_nested.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/loop_plugins.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/loop_with_items.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/mysql.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/nested_playbooks.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/netscaler.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/postgresql.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/postgresql.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/prompts.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/rabbitmq.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/register_logic.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/roletest.yml
+  ROLES: foo, foo
+PLAYBOOK: data/raw/ansible-examples/language_features/roletest2.yml
+  ROLES: foo
+PLAYBOOK: data/raw/ansible-examples/language_features/selective_file_sources.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/tags.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/tags.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/upgraded_vars.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/user_commands.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/language_features/zfs.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/mongodb/playbooks/testsharding.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/mongodb/site.yml
+  ROLES: common
+PLAYBOOK: data/raw/ansible-examples/mongodb/site.yml
+  ROLES: mongod
+PLAYBOOK: data/raw/ansible-examples/mongodb/site.yml
+  ROLES: mongoc
+PLAYBOOK: data/raw/ansible-examples/mongodb/site.yml
+  ROLES: mongos
+PLAYBOOK: data/raw/ansible-examples/mongodb/site.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/phillips_hue/ansible_colors.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/phillips_hue/effect.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/phillips_hue/on_off.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/phillips_hue/register.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/rust-module-hello-world/rust.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/tomcat-memcached-failover/site.yml
+  ROLES: common
+PLAYBOOK: data/raw/ansible-examples/tomcat-memcached-failover/site.yml
+  ROLES: lb-nginx
+PLAYBOOK: data/raw/ansible-examples/tomcat-memcached-failover/site.yml
+  ROLES: tomcat
+PLAYBOOK: data/raw/ansible-examples/tomcat-memcached-failover/site.yml
+  ROLES: memcached
+PLAYBOOK: data/raw/ansible-examples/tomcat-standalone/site.yml
+  ROLES: selinux, tomcat
+PLAYBOOK: data/raw/ansible-examples/windows/create-user.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/windows/deploy-site.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/windows/enable-iis.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/windows/install-msi.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/windows/ping.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/windows/run-powershell.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/windows/test.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/windows/test.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/windows/wamp_haproxy/demo-aws-wamp-launch.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/windows/wamp_haproxy/rolling_update.yml
+  ROLES: web
+PLAYBOOK: data/raw/ansible-examples/windows/wamp_haproxy/site.yml
+  ROLES: mssql
+PLAYBOOK: data/raw/ansible-examples/windows/wamp_haproxy/site.yml
+  ROLES: iis, web
+PLAYBOOK: data/raw/ansible-examples/windows/wamp_haproxy/site.yml
+  ROLES: elb
+PLAYBOOK: data/raw/ansible-examples/windows/wamp_haproxy/site.yml
+  ROLES: (none declared directly)
+PLAYBOOK: data/raw/ansible-examples/wordpress-nginx/site.yml
+  ROLES: common, mysql, nginx, php-fpm, wordpress
+PLAYBOOK: data/raw/ansible-examples/wordpress-nginx_rhel7/site.yml
+  ROLES: common, mariadb, nginx, php-fpm, wordpress

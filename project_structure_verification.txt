@@ -1,0 +1,13 @@
+=== WINDOWS ANSIBLE LLM PROJECT VERIFICATION ===
+Checked: Mon Oct 26 14:17:02 UTC 2026
+
+PRESENT: scripts/add_two_examples.py
+PRESENT: scripts/build_curated_dataset.py
+PRESENT: scripts/validate_combined_dataset.py
+PRESENT: scripts/validate_finetuning_ansible.py
+PRESENT: audit_results/github_legacy_ec2_audit_summary.txt
+PRESENT: data
+PRESENT: .venv
+
+Python scripts: 10
+Audit reports: 30

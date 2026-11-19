@@ -1,0 +1,50 @@
+{
+  "github_examples": {
+    "yaml_files": 151,
+    "parsed_files": 151,
+    "parse_errors": 0,
+    "task_entries_all_files": 180,
+    "non_test_yaml_files": 150,
+    "task_entries_outside_test_paths": 180,
+    "sample_parse_errors": []
+  },
+  "github_roles": {
+    "yaml_files": 80,
+    "parsed_files": 80,
+    "parse_errors": 0,
+    "task_entries_all_files": 14,
+    "non_test_yaml_files": 60,
+    "task_entries_outside_test_paths": 0,
+    "sample_parse_errors": []
+  },
+  "galaxy_collections": {
+    "yaml_files": 2414,
+    "parsed_files": 2407,
+    "parse_errors": 7,
+    "task_entries_all_files": 236,
+    "non_test_yaml_files": 75,
+    "task_entries_outside_test_paths": 0,
+    "sample_parse_errors": [
+      {
+        "file": "data/extracted/galaxy/community-docker-5.4.0/tests/integration/targets/inventory_docker_machine/playbooks/test_inventory_1.yml",
+        "error": "could not determine a constructor for the tag '!unsafe'"
+      },
+      {
+        "file": "data/extracted/galaxy/community-docker-5.4.0/tests/integration/targets/inventory_docker_containers/playbooks/docker_setup.yml",
+        "error": "could not determine a constructor for the tag '!unsafe'"
+      },
+      {
+        "file": "data/extracted/galaxy/community-general-13.5.0/tests/integration/targets/filter_to_yaml/vaulted_vars.yml",
+        "error": "could not determine a constructor for the tag '!vault'"
+      },
+      {
+        "file": "data/extracted/galaxy/community-general-13.5.0/tests/integration/targets/filter_to_toml/vaulted_vars.yml",
+        "error": "could not determine a constructor for the tag '!vault'"
+      },
+      {
+        "file": "data/extracted/galaxy/community-general-13.5.0/tests/integration/targets/callback_diy/tasks/main.yml",
+        "error": "could not determine a constructor for the tag '!unsafe'"
+      }
+    ]
+  }
+}
